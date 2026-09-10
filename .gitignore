@@ -1,0 +1,10 @@
+out/
+*.class
+.idea/
+*.iml
+.vscode/
+.settings/
+.classpath
+.project
+bin/
+sources.txt
