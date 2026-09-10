@@ -34,6 +34,14 @@ installed.
 See [`docs/Design_Decisions.md`](docs/Design_Decisions.md) for the full
 list of what each of the 100 grading points maps to in code.
 
+Generated API docs: [`docs/javadoc/index.html`](docs/javadoc/index.html)
+(open locally in a browser — GitHub renders HTML as source, not live
+pages). Regenerate anytime with:
+
+```bash
+javadoc -d docs/javadoc -sourcepath src/main/java -subpackages com.airtribe.meditrack -windowtitle "MediTrack API" -private
+```
+
 ## Design Patterns Used
 
 | Pattern   | Where                                                        | Why |
